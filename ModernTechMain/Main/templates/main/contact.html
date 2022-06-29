@@ -1,0 +1,13 @@
+{%extends 'main/layout.html'%}
+{%load static%}
+{%block content%}
+<div class="rectangle"></div>
+<form method="post">
+    {% csrf_token %}
+    {{ form.message }}<br>
+    {{ form.contact }}<br>
+    <button class="send_message" type="submit">Отправить</button>
+    <span>error</span>
+</form>
+    <p class="text_tt">Вы можете мне написать и я Вам отвечу</p>
+{%endblock%}

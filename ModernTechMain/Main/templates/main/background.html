@@ -1,0 +1,13 @@
+{% extends 'main/layout.html'%}
+{%load static%}
+{%block content%}
+<div class="bot">
+    <img src="{% static 'img/main/img_phone_2.jpg'%}" alt="">
+    <p class="p_t">Это Telegram-bot, который может рассказать Вам о точном времени и актуальной погоде в 5 городах России, а также в качестве примера может записать Вас в салон или отменить запись</p>
+</div>
+<div class="app">
+    <img src="{%static 'img/main/app_humor.png'%}" alt="">
+    <p>Это приложение создано, чтобы Вы могли поднять себе настроение, почитать лучшие анекдоты и посмотреть акутальные мемы!</p>
+</div>
+<img class="logo" src="{% static 'img/main/logo.jpg'%}" alt="">
+{%endblock%}

@@ -1,0 +1,129 @@
+
+aside {
+    margin-left: 31.5%;
+    }
+aside ul li{
+    display:inline-block;
+    font-family: arial black;
+    font-size: 20px;
+    padding: 3%;
+    text-decorate:none;
+    color:#7DCCA1;
+    transition: all .3s;
+    }
+.img{
+    width: 20%;
+    height: 20%;
+    border: solid 5px #fff;
+    border-radius: 10px;
+    margin-left:41%;
+    margin-top:3%;
+}
+
+.text{
+    font-family: arial black;
+    font-size: 20px;
+    color: #CCE0AC;
+    margin-left: 33%;
+    margin-right:30%;
+}
+aside ul li:hover, aside ul a:hover{
+    color:#CCE0AC;
+}
+
+
+.bot  {margin-left:10%; margin-right:70%;display:block; position:absolute;}
+.p_t{
+    color: #7DCCA1;
+    font-family: arial black;
+    font-size: 15px;
+}
+.bot img{width:90%; height:110%;}
+
+.app {margin-left:70%; margin-right:10%;display:block; position:absolute;}
+.app p {
+    color: #7DCCA1;
+    font-family:arial black;
+    font-size: 15px;
+    padding-right:5%;
+}
+.app img{width:90%; height:110%;}
+
+.logo{
+    width:20%;
+    height: 20%;
+    margin-left:38.5%;
+    margin-top:10%;
+    border: solid 5px #fff;
+    border-radius: 10px;
+    }
+.text_tt {
+    margin-left:25%;
+    margin-right:23%;
+    padding-bottom:30%;
+    background: #74BDB2;
+    border-radius:10px;
+    font-size: 20px;
+    font-family: arial black;
+    color: #fff;
+    padding-left: 13%;
+    padding-top: 3%;
+    padding-right:13%;
+    position: absolute;
+    z-index:1;
+}
+.your_message{
+    width: 40%;
+    height:35%;
+    margin-left: 30%;
+    z-index:2;
+    position:absolute;
+    font-family: arial black;
+    font-size:15px;
+    margin-top: 10%;
+    border: none;
+    border-radius: 20px;
+    padding-right: 0.5%;
+    padding-left: 0.5%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+
+}
+
+.contact_from_message {
+    width: 10%;
+    height: 2%;
+    margin-left: 30%;
+    z-index:2;
+    position:absolute;
+    font-family: arial black;
+    font-size:15px;
+    margin-top: 29%;
+    border: none;
+    border-radius: 10px;
+    padding-right: 0.5%;
+    padding-left: 0.5%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+.contact_from_message:active{
+    border: none;
+}
+.send_message{
+    margin-left: 61.5%;
+    z-index:2;
+    position:absolute;
+    font-family: arial black;
+    font-size:15px;
+    margin-top: 28.1%;
+    border: none;
+    border-radius: 10px;
+    padding-right: 2.5%;
+    padding-left: 2.5%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    transition: all .3s;
+}
+.send_message:hover {
+    background: #43738C;
+}
